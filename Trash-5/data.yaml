@@ -1,0 +1,6 @@
+names:
+- not trash
+- trash
+nc: 2
+train: Trash-5/train/images
+val: Trash-5/valid/images
