@@ -33,7 +33,7 @@ def detect(p):
     parser.add_argument('--augment', action='store_true', help='augmented inference')
     parser.add_argument('--update', action='store_true', help='update all models')
     parser.add_argument('--project', default='static', help='save results to project/name')
-    parser.add_argument('--name', default='exp', help='save results to project/name')
+    parser.add_argument('--name', default='exp/1.jpg', help='save results to project/name')
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
     parser.add_argument('--no-trace', action='store_true', help='don`t trace model')
     opt = parser.parse_args()
